@@ -114,6 +114,12 @@ footer {
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
 }
+.imagem-centralizada {
+    width: 200px; /* Ajuste o tamanho conforme necessário */
+    height: 200px;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    display: block; /* Garante que o elemento ocupe toda a linha */
+}
 
 @media (max-width: 768px) {
     h1 {

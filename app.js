@@ -17,6 +17,7 @@ function pesquisar(){
     let resultados = "";
     let titulo = "";
     let descricao = "";
+    let imagem="";
   
     // Itera sobre cada dado e cria o HTML correspondente
     for (let dado of dados) {
@@ -28,6 +29,7 @@ function pesquisar(){
             resultados += `
             <div class="item-resultado"> <h2> <a href="#" target="_blank"> ${dado.titulo}</a> 
             </h2>
+             <img src="${dado.imagem}"  width="200" height="200" class="imagem-centralizada"> <h2> <a href="#" target="_blank"> </a> </h2>
             <p class="descricao-meta"> ${dado.descricao} </p>
             <a href=${dado.link} target="_blank"> Mais informações</a> </div>
             `;
