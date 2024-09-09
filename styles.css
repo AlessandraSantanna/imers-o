@@ -4,7 +4,7 @@
 /* Estiliza o corpo da página */
 body {
     font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
-    background-image:url(image10-1024x474.png); /* Cor de fundo da página */
+    background-image:url(./imagens/image10-1024x474.png); /* Cor de fundo da página */
     background-size: cover;
     background-position: center center;
     display: flex; /* Usa Flexbox para layout */
@@ -121,7 +121,8 @@ footer {
     display: block; /* Garante que o elemento ocupe toda a linha */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
+  
     h1 {
         font-size: 2rem; /* Tamanho da fonte em telas menores */
         letter-spacing: 0.2rem; /* Espaçamento entre letras em telas menores */
@@ -144,7 +145,7 @@ footer {
 
 /* Responsividade para celulares */
 @media (max-width: 480px) {
-
+  
     h1 {
         font-size: 1.8rem; /* Tamanho da fonte em telas pequenas */
         letter-spacing: 0.1rem; /* Espaçamento entre letras em telas pequenas */
